@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    height: 100vh;
+}
+
+.header {
+    background-color: #5B493C;
+    color: #E6E3DA;
+    padding: 2%;
+}
+
+.aside {
+    float: left;
+    background-color: orange;
+    height:85vh;
+    width: 20%;
+}
+
+.footer {
+    background-color: #5B493C;
+    color: #E6E3DA;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+
+[class^="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#top-menu {
+    background-color: #C39182;
+}
+
+#main-content {
+    padding: 7.6%;
+}
+
+#red-background {
+    background-color: #C5697A;
+}
+
+#blue-background {
+    background-color: #00A2B6;
+}
