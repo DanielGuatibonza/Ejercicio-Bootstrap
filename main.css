@@ -12,7 +12,7 @@ body {
 .aside {
     float: left;
     background-color: orange;
-    height:85vh;
+    height:87vh;
     width: 20%;
 }
 
@@ -27,10 +27,6 @@ body {
 [class^="col-"] {
   padding-left: 0;
   padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 #bold {
@@ -42,13 +38,15 @@ body {
 }
 
 #main-content {
-    padding: 7.6%;
+    padding: 8%;
 }
 
 #red-background {
     background-color: #C5697A;
+    margin: 0;
 }
 
 #blue-background {
     background-color: #00A2B6;
+    margin: 0;
 }
