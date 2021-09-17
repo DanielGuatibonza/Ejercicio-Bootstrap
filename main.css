@@ -1,44 +1,36 @@
 body {
     text-align: center;
-    height: 100vh;
 }
 
-.header {
+.row {
+    margin: 0;
+}
+
+#header {
     background-color: #5B493C;
     color: #E6E3DA;
     padding: 2%;
-}
-
-.aside {
-    float: left;
-    background-color: orange;
-    height:87vh;
-    width: 20%;
-}
-
-.footer {
-    background-color: #5B493C;
-    color: #E6E3DA;
-    position: fixed;
-    width: 100%;
-    bottom: 0%;
-}
-
-[class^="col-"] {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 #bold {
     font-weight: bold;
 }
 
+#left-menu {
+    background-color: orange;
+}
+
 #top-menu {
     background-color: #C39182;
 }
 
+#footer {
+    background-color: #5B493C;
+    color: #E6E3DA;
+}
+
 #main-content {
-    padding: 8%;
+    padding: 7%;
 }
 
 #red-background {
@@ -49,4 +41,9 @@ body {
 #blue-background {
     background-color: #00A2B6;
     margin: 0;
+}
+
+[class^="col-"] {
+  padding-left: 0;
+  padding-right: 0;
 }
